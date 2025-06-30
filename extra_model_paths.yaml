@@ -1,0 +1,12 @@
+# RunPod Network Volume Paths
+# This links the folders in your 'WHtoLinda' volume to ComfyUI
+
+runpod_linda:
+    base_path: /runpod-volume/WHtoLinda
+
+    checkpoints: models/checkpoints
+    vae: models/vae
+    loras: models/loras
+    upscale_models: models/upscale_models
+    controlnet: models/controlnet
+    embeddings: models/embeddings
